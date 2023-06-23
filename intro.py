@@ -1,0 +1,6 @@
+print( "welcome to python programming" )
+print(5+7)
+print("5+7")
+print(56/7)
+print("this is my python language")
+print(60*54)
