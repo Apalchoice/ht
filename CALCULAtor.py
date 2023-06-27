@@ -7,20 +7,20 @@ def divide (x,y):
 def multiply (x,y):
     return  x*y
 print ("select operator")
-print(" add")
-print(" subtract")
-print(" divide")
-print(" multiply")
+print("a. add")
+print("b. subtract")
+print("c. divide")
+print("d. multiply")
 choice =input("enter choice add, subtract,divide,multiply")
-num1 =int(input("enter first number:"))
-num2 =int(input("enter second number:"))
+num1 = int(input("enter first number:"))
+num2 = int(input("enter second number:"))
 
-if choice=="add":
+if choice=="a":
     print(num1,"+" , num2 ,"=",add(num1,num2))
-elif choice =="subtract":
+elif choice =="b":
     print(num1,"-", num2,"=", add(num1,num2))
-elif choice=="divide":
+elif choice=="c":
     print(num1, "/", num2, "=",divide(num1, num2))
-elif choice=="multiply":
+elif choice=="d":
     print(num1, "*", num2, "=",multiply(num1, num2))
 
